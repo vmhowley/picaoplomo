@@ -80,7 +80,7 @@ setDeck(restDeck);
   };
 
   const punish = () => {
-    const punishment = cards.castigo[Math.floor(Math.random() * cards.castigo.length)];
+    const punishment = cards.punishments[Math.floor(Math.random() * cards.punishments.length)];
     setActiveCard({ text: `Castigo para ${players[currentPlayerIndex]}: ${punishment.text}` });
   };
 
