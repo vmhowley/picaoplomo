@@ -124,7 +124,7 @@ setDeck(restDeck);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-900 via-purple-900 to-indigo-900 text-white flex flex-col items-center p-6">
-      <h1 className="text-4xl font-extrabold mb-6 select-none">🔥 Juego Caliente 🔥</h1>
+      <h1 className="text-4xl font-extrabold mb-6 select-none"> Rouge Secrets 🤫🤭</h1>
 
       {!started && !showLimits && (
         <div className="w-full max-w-md bg-black/40 bg-opacity-20 rounded-xl p-6 shadow-lg">
@@ -169,9 +169,9 @@ setDeck(restDeck);
       )}
 
       {showLimits && !started && (
-        <div className="w-full max-w-lg bg-black/40 bg-opacity-20 rounded-xl p-6 shadow-lg">
-          <h2 className="text-2xl font-semibold mb-4">Define límites por jugador</h2>
-            <p className="text-xs bg-white/20 rounded p-2 text-center m-4">Al seleccionar un limite se excluyen las cartas de ese tipo para el jugador que la selecciono  <br/> <p className="text-red-500 text-sm">No selecciones nada si no quieres limites!</p> </p>
+        <div className="w-full max-w-lg bg-black/40 bg-opacity-20 rounded-xl p-6 shadow-lg  text-center">
+          <h2 className="text-2xl font-semibold mb-4 ">Define límites por jugador</h2>
+            <p className="text-xs bg-white/20 rounded p-2 text-center m-4 ">Al seleccionar un limite se excluyen las cartas de ese tipo para el jugador que la selecciono  <br/> <p className="text-red-500 text-sm">No selecciones nada si no quieres limites!</p> </p>
 
           {players.map(player => (
             <div key={player} className="mb-5">
