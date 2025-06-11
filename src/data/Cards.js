@@ -243,6 +243,14 @@ export const cards = {
   { type: "dare", text: "Permite que alguien te haga un masaje en los genitales (con ropa o sin, según acuerdo) durante 30 segundos." },
   { type: "dare", text: "Haz un beso francés a alguien del grupo durante 1 minuto. Con lengua y todo." },
   ],
+  level4_extreme : [
+  { id: 1, text: "Posición: La Silla. Uno se sienta, el otro se sube encima y se abrazan fuerte mientras se mueven lento.", duration: 90 },
+  { id: 2, text: "Posición: Perrito frente al espejo. Que tu pareja te tome fuerte mientras ambos se miran.", duration: 90 },
+  { id: 3, text: "Posición: El 69. Lento, profundo, sin distracciones durante 3 minutos.", duration: 180 },
+  { id: 4, text: "Posición: El Columpio. Uno se recuesta con las piernas elevadas, el otro penetra de pie con ritmo variable.", duration: 120 },
+  { id: 5, text: "Posición: Penetración profunda mientras te masturbas al mismo tiempo.", duration: 120 },
+  // ... añade más cartas si quieres
+],
 
   punishments: [
     "Toma un trago sin usar las manos.",
