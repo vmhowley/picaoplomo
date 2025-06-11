@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { cards } from "../data/cards";
+import { cards } from "../data/Cards.js";
 
 const Game = () => {
   const location = useLocation();
